@@ -1,0 +1,129 @@
+.container1 {
+    width: 60%;
+    margin-top: 5%;
+    padding: 50px;
+    background-color: #f9f9f98e;
+   margin-bottom: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.course img{
+height: 150px;
+}
+
+.course {
+    text-decoration: none;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.course h2 {
+    margin-top: 0;
+}
+.course p {
+    margin-bottom: 0;
+}
+#sat
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+
+}
+.absolute
+{width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+body { 
+    margin: 0; 
+    
+    font-family: Arial, sans-serif; 
+    font-size: large; 
+    background-image: url(photo/cour2.jpg) ;
+    background-size:cover; 
+
+   } 
+   #linktxt
+{
+	color: black;
+	font-size: large;
+}
+.txt{
+    color: black;
+    text-decoration: none;
+}
+.hop
+{ text-decoration: underline;
+    font-weight: bolder;
+    color: black;
+    font-size:larger;
+}
+.navbar a{
+	color: #fff;
+	
+}
+.navbar{
+	background-color: #00D4C6;
+}
+
+
+.navigation {
+	
+	display: flex;
+	justify-content: space-between;
+	
+	width: 80%;
+	margin: 0 auto;
+	
+
+	padding:3% 0% 3% 0%;
+	color: #fff;
+   
+}
+
+
+
+.nav {
+	display: flex;
+	list-style: none;
+}
+
+.nav li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 30px 0 0;
+	font-size: 18px;
+}
+
+.icon li a {
+	margin: 0 20px 0 0;
+}
+.piciv
+{align-self: left;
+font-size: auto;}
+
+.logo {
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+	color: #c6f1e7 ;
+	float: left; 
+	
+			align-self: left;
+
+}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 1382px) {}

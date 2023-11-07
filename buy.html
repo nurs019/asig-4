@@ -1,0 +1,208 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <link rel="stylesheet" href="./calc.css" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <meta charset="utf-8" /> 
+    <title>Registration Form</title> 
+    <link 
+      rel="stylesheet" 
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    /> 
+    <link rel="stylesheet" type="text/css" href="buy.css" /> 
+    <link 
+      href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" 
+      rel="stylesheet" 
+    /> 
+    <link 
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" 
+      rel="stylesheet" 
+    />
+    <script src="jquery.min.js"></script>
+    <script src="/jquery.min.js"></script>
+     
+  </head> 
+ 
+  <body> 
+    <div class="wrapper"> 
+    <header> 
+      <div class="navigation"> 
+        <div class="picdiv"> 
+          <img 
+            src="./photo/logos.jpg" 
+            alt="Pifagor" 
+            width="100" 
+            height="50" 
+          /> 
+          <h1 class="logo-text">Pifagor</h1> 
+        </div> 
+ 
+        <div class="menu"> 
+          <ul class="nav"> 
+            <li><a class="link" href="mainpage.html" id="linktxt">Главная</a></li> 
+            <li><a class="link" href="Courses.html" id = "linktxt">Курсы</a></li> 
+            <li><a class="link" href="Teachers.html" id="linktxt">Учителя</a></li> 
+            <li> 
+              <a class="link" href="https://goo.gl/maps/uG1jm1vsktoUi62C9" id="linktxt"
+                >Адрес</a 
+              > 
+            </li> 
+            <li class="nav-item mx-5">
+              <image src = "music.png" width= "40px" height = "40px" onclick="toggleMusic()"></image>
+          </li>
+          </ul> 
+        </div> 
+      </div> 
+ 
+      <div class="container"> 
+        <div class="form-container" > 
+          <div class="image col"> 
+            <img src="desk.jpg" width="400" height="200" /> 
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10017.337980428421!2d71.41629660648618!3d51.120737844084346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245848285937047%3A0xf1501c0ee5909d85!2sAbu%20Dhabi%20Plaza!5e0!3m2!1sen!2skz!4v1681374204477!5m2!1sen!2skz" 
+              width="400" 
+              height="400" 
+              style="border: 1" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade" 
+            ></iframe> 
+          </div> 
+          <div class="frm"> 
+            <h1>Свяжитесь с нами!</h1> 
+            <form> 
+              <div class="form-group"> 
+                <label for="username">Ваше имя:</label> 
+                <input 
+                  type="text" 
+                  class="form-control" 
+                  id="username" 
+                  placeholder="Имя*" 
+                /> 
+              </div> 
+ 
+              <div class="form-group"> 
+                <label for="grade">Класс обучения:</label> 
+                <input 
+                  type="text" 
+                  class="form-control" 
+                  id="grade" 
+                  placeholder="Класс*" 
+                /> 
+              </div> 
+ 
+              <div class="form-group"> 
+                <label for="disc">Желаемая дисциплина:</label> 
+                <input 
+                  type="text" 
+                  class="form-control" 
+                  id="disc" 
+                  placeholder="Название предмета*" 
+                /> 
+              </div> 
+ 
+              <div class="form-group"> 
+                <label for="email">Email:</label> 
+                <input 
+                  type="email" 
+                  class="form-control" 
+                  id="email" 
+                  placeholder="Email*" 
+                /> 
+              </div> 
+              <div class="form-group"> 
+                <label for="nmb">Номер телефона:</label> 
+                <input 
+                  type="username" 
+                  class="form-control" 
+                  id="nmb" 
+                  placeholder="+7(___)___-__-__*" 
+                /> 
+              </div> 
+ 
+              <div class="form-group"> 
+                <button type="submit" class="btn btn-success btn-lg"> 
+                  Оставить заявку 
+                </button> 
+              </div> 
+            </form> 
+          </div>
+        </div> 
+      </div> 
+      <div class="container_"> 
+        <div class="calc-container_"> 
+          <div class="row row1"> 
+            <div class="col1"> 
+              <label for="">Количество занятий</label> 
+              <input type="text" class="amount-classes" /> 
+            </div> 
+            <div class="col2"> 
+              <label for="">Предемет</label> 
+              <select name="" id="" class="predmet"> 
+                <option value="math">Математика</option> 
+                <option value="phyz">Физика</option> 
+                <option value="it">Информатика</option> 
+              </select> 
+            </div> 
+            <div class="col3"> 
+              <label for="">Класс</label> 
+              <select class="class"> 
+                <option value="6">6</option> 
+                <option value="7">7</option> 
+                <option value="8">8</option> 
+                <option value="9">9</option> 
+                <option value="10">10</option> 
+                <option value="11">11</option> 
+              </select> 
+            </div> 
+          </div> 
+          <div class="row row2"><button>Посчитать</button></div> 
+          <div class="row row3"> 
+            <label for="">Сумма:</label> 
+            <div class="sum"> 
+              <p></p> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+      <script> 
+      
+        document.addEventListener("DOMContentLoaded", function () { 
+          const button = document.querySelector(".row2 button"); 
+          const amountInput = document.querySelector(".amount-classes"); 
+          const subjectSelect = document.querySelector(".predmet"); 
+          const classSelect = document.querySelector(".class"); 
+          const sumParagraph = document.querySelector(".sum p"); 
+ 
+          const subjectCost = { 
+            math: 4000, 
+            phyz: 5000, 
+            it: 4500, 
+          }; 
+ 
+          const classCoefficient = { 
+            6: 1, 
+            7: 1, 
+            8: 1.05, 
+            9: 1.1, 
+            10: 1.15, 
+            11: 1.2, 
+          }; 
+ 
+          button.addEventListener("click", function () { 
+            const amount = Number(amountInput.value); 
+            const subject = subjectSelect.value; 
+            const classValue = classSelect.value; 
+ 
+            if (!isNaN(amount)) { 
+              const total = 
+                amount * subjectCost[subject] * classCoefficient[classValue]; 
+              sumParagraph.textContent = total.toFixed(2); 
+            } 
+          }); 
+        }); 
+      </script> 
+    </header> 
+  </div> 
+  </body> 
+</html>

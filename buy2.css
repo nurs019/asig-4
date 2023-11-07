@@ -1,0 +1,10 @@
+.form-container {
+    display: flex;  justify-content: center;
+    width: fit-content;
+    }
+    .container .frm {  background-color: #c6e4b2;
+        float: right;  height: 600px;
+        padding: 0 35px;}
+        .container .form-control {
+            width: 90%;  padding: 12px 20px;
+            height: auto;}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+	<title>Курсы</title>
+  <link rel="stylesheet" type="text/css" href="Courses.css"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="/jquery.min.js"></script>
+</head>
+<body> 
+  <script>
+    var audio = new Audio('INSTASAMKA - За Деньги Да.mp3');
+   var isPlaying = false;
+   
+   function toggleMusic() {
+     if (isPlaying) {
+       audio.pause();
+       isPlaying = false;
+     } else {
+       audio.play();
+       isPlaying = true;
+     }
+   }
+
+   
+
+ </script>
+  <nav class="navbar navbar-expand-lg" >
+    <div class="container-fluid">
+      <a class="navbar-brand ms-auto" href="mainpage.html" id = "linktxt">
+        <img src="C:\Users\User\Desktop\WEB-onlineschool\photo\logos.jpg" alt="Pifagor" width="100" height="50">
+        Pifagor
+      </a>
+
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>         //https://getbootstrap.com/docs/4.0/components/navbar/
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="mainpage.html" id = "linktxt">Главная</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="Courses.html" id= "linktxt">Курсы</a>
+          </li>
+          <li class="nav-item active mx-5">
+            <a class="nav-link" href="Teachers.html" id="linktxt" >Учителя</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="https://goo.gl/maps/uG1jm1vsktoUi62C9" id = "linktxt">Адрес</a>
+          </li>
+          <image src = "music.png" width= "40px" height = "40px" onclick="toggleMusic()"></image>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+  <div class="absolute">
+  
+
+	<div class="container1">
+     
+		<h1>Учебные курсы</h1>
+		<p>Мы предлагаем различные учебные курсы, чтобы помочь вам развить свои знания и навыки в этой области: </p>
+    <div class="course">
+      <div class="row" id ="sat">
+        <div class="col-lg-5 col-md-5 col-sm-5">
+          <a class="hop" href="buy.html">Ускоренная подготовка к SAT</a>
+      <p>Ускоренный курс подготовки к SAT за 3 месяца. Наш курс предлагает вам ускоренную индивидуальную подготовку с учителем, доступ к различным учебным материалам, пробникам, учебникам и прочим ресурсам на протяжении года. </a>
+    </div>
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    <img src="photo/sat.jpg">
+  </div>
+  </div></div>
+
+
+
+
+  <div class="course">
+    <div class="row" id ="sat">
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <a class="hop" href="buy.html">Олимпиадные подготовки к различным предметам.</a>
+    <p>Наши опытные преподователи имеют опыт в подготовке к областным, республиканским и международным олимпиадам, благодоря специальной методике ученики прогрессируют гораздо быстрее, чем у других преподователей.  </a>
+  </div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+  <img src="photo/olimp2.jpg">
+</div>
+</div></div>
+
+
+
+
+<div class="course">
+  <div class="row" id ="sat">
+    <div class="col-lg-5 col-md-5 col-sm-5">
+      <a class="hop" href="buy.html">Подготовка к ЕНТ, КТО.</a>
+  <p>Наши специалисты помогают вспомнить базу средней и старшей школы, не только укрепить ее, а также значительно повысить уровень знаний, чтобы сдача государственных экзаменов была легчайшей задачей.</a>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+<img src="photo/ent.jpg">
+</div>
+</div></div>
+
+
+
+
+
+<div class="course">
+  <div class="row" id ="sat">
+    <div class="col-lg-5 col-md-5 col-sm-5">
+      <a class="hop" href="buy.html">Языковые курсы по английскому.</a>
+  <p>Носители языка помогут вам не просто вызубрить английский, а понять его изнутри, развить практические навыки, такие как: письмо, говорение, слушание и чтение, нехуже коренных англичан</a>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+<img src="photo/ielts.jpg">
+<div></div>
+</div>
+  
+</div>
+</div>
+
+
+
+  </div>
+  </div>
+  </body>
+  <nav class="navbar navbar-expand-lg" >
+    <div class="container-fluid">
+  
+      
+      <div class="collapse navbar-collapse" id="navbarNav" style="margin-top: 1%; ">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="FAQ.html"  id = "linktxt">FAQ</a>
+          </li>
+          
+          <li class="nav-item active mx-5">
+            <a class="nav-link" href="about.html" id = "linktxt">О нас</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+  </html>
